@@ -21,10 +21,20 @@ table, tr, th, td{
     border: 2px solid black;
     padding: 5px;
 }
+.wrapper{
+    display:flex;
+    align-content: space-around;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
 table{
     width: 200px;
-    align-self: center;
     margin: 20px;
+}
+iframe{
+    width: 700px;
+    height: 400px;
 }
 .albumimg{
     display: flex;
@@ -46,7 +56,6 @@ img{
     align-self: center;
 }
 li{
-    list-style: none;
     margin: 10px;
     border: 4px inset black;
     color: darkred;
@@ -54,7 +63,9 @@ li{
 li:hover{
     border: 4px outset black;
     background-color: red;
-}
-a:hover{
     color: black;
+}
+form, input{
+    align-self: center;
+    margin: 10px;
 }
