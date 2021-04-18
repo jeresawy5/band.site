@@ -45,6 +45,16 @@ img{
 .songlist ul{
     align-self: center;
 }
-a{
-    color: red;
+li{
+    list-style: none;
+    margin: 10px;
+    border: 4px inset black;
+    color: darkred;
+}
+li:hover{
+    border: 4px outset black;
+    background-color: red;
+}
+a:hover{
+    color: black;
 }
